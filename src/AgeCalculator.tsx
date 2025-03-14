@@ -42,6 +42,7 @@ const AgeCalculator: React.FC = () => {
         value={dateOfBirth}
         onChange={(e) => setDateOfBirth(e.target.value)}
       />
+      <br />
       <button onClick={handleCalculate} className="button">
         Laske ikävuodet
       </button>
