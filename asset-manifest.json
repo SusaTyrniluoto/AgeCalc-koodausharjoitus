@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AgeCalc-koodausharjoitus/static/css/main.d0055b0f.css",
+    "main.js": "/AgeCalc-koodausharjoitus/static/js/main.9b2b4f7f.js",
+    "static/js/453.4f5cc4cc.chunk.js": "/AgeCalc-koodausharjoitus/static/js/453.4f5cc4cc.chunk.js",
+    "index.html": "/AgeCalc-koodausharjoitus/index.html",
+    "main.d0055b0f.css.map": "/AgeCalc-koodausharjoitus/static/css/main.d0055b0f.css.map",
+    "main.9b2b4f7f.js.map": "/AgeCalc-koodausharjoitus/static/js/main.9b2b4f7f.js.map",
+    "453.4f5cc4cc.chunk.js.map": "/AgeCalc-koodausharjoitus/static/js/453.4f5cc4cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0055b0f.css",
+    "static/js/main.9b2b4f7f.js"
+  ]
+}
