@@ -11,7 +11,7 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         
         <div className="App">
-        <h1>IKÄVUOSILASKURI</h1>
+        <h1>IKÄVUOSIEN LASKURI</h1>
           <AgeCalculator />
         </div>
         

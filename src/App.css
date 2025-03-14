@@ -71,12 +71,10 @@
   background: #fdd3b4;
   font-weight: 700;
   font-family: "geneo-std", sans-serif;
+  opacity: 1;
   
 }
 
-.input::-webkit-datetime-edit {
-  text-align: center;
-}
 
 
 .button {
