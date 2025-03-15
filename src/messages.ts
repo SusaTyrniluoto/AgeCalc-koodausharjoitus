@@ -27,7 +27,6 @@ export const daysMessage = (daysLeft: number) => `
 
 export const advertisementHTML = `
   <p>Oletko ajatellut tilata syntymäpäiväjuhliin valokuvaajaa?</p>
-  <h3>Ota yhteyttä ja kysy lisää!</h3>
   <p class="yhteystiedot">
     <b>Susa Tyrniluoto</b><br>
     <span class="subtitle">Tamperelainen valokuvaaja ja kuvataiteilija</span><br>
