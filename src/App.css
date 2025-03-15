@@ -1,21 +1,17 @@
-@import url("https://use.typekit.net/gfu2ckn.css">);
+@import url("https://use.typekit.net/gfu2ckn.css");
 
+body {
+  background-color: #ffefe3; /* koko sivun taustaväri */
+}
+
+/* Sovelluksen yleiset asetukset */
 .App {
   text-align: center;
   font-family: "geneo-std", sans-serif;
-  font-weight: 600;
-  font-style: normal;;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-weight: 400;
+  font-style: normal;
+  /* background-color: #e6965d;  sovelluksen sisäinen taustaväri */
+  margin: 20px;
 }
 
 .App-header {
@@ -29,25 +25,10 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .container {
-  /* background-color: #333; */
   color: #f0f0f0;
   min-height: 100vh;
-  padding: 30px;
-
+  padding: auto;
 }
 
 .label {
@@ -56,8 +37,6 @@
 }
 
 .input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   text-align: center;
   font-size: 1.4rem;
@@ -72,10 +51,7 @@
   font-weight: 700;
   font-family: "geneo-std", sans-serif;
   opacity: 1;
-  
 }
-
-
 
 .button {
   background: linear-gradient(#dea04e, #e39322);
@@ -83,14 +59,74 @@
   font-size: 1.2rem;
   padding: 10px 20px;
   font-weight: 600;
-  border: 2px solid #ad764d; /* Added border value */;
- 
+  border: 2px solid #ad764d;
   border-radius: 12px;
   cursor: pointer;
   margin-bottom: 15px;
 }
 
 .result {
-  margin-top: 15px;
-  font-size: 1.6rem;
+  margin: 20px auto;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  max-width: 500px;
+  white-space: normal;
+}
+
+.days-message {
+  font-weight: 600;
+  color: #ed0707;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #fff3f3;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.contact {
+  font-size: 0.7em;
+  line-height: 1.2; /* pienempi arvo, normaalisti 1.2–1.4 on hyvä */
+}
+
+.contact br {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  display: inline;
+}
+
+span.contact br {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+  display: inline !important;
+}
+
+
+a {
+  color: hsl(44, 87%, 94%); /* normaali linkki */
+  text-decoration: none; /* poistaa alleviivauksen */
+}
+
+a:visited {
+  color: #f8f1ff; /* käyty linkki */
+}
+
+a:hover {
+  color: #ffffff; /* hover-tila, kun hiiri on linkin päällä */
+}
+
+a:active {
+  color: #ffffff; /* aktiivinen tila, kun linkkiä klikataan */
+}
+
+p.yhteystiedot {
+  /* Esimerkiksi */
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.3 !important;
+  font-weight: 500;
 }
