@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AgeCalc-koodausharjoitus/static/css/main.3c9df138.css",
-    "main.js": "/AgeCalc-koodausharjoitus/static/js/main.c2548bef.js",
+    "main.css": "/AgeCalc-koodausharjoitus/static/css/main.21f14cb1.css",
+    "main.js": "/AgeCalc-koodausharjoitus/static/js/main.30c2925a.js",
     "static/js/453.4f5cc4cc.chunk.js": "/AgeCalc-koodausharjoitus/static/js/453.4f5cc4cc.chunk.js",
     "index.html": "/AgeCalc-koodausharjoitus/index.html",
-    "main.3c9df138.css.map": "/AgeCalc-koodausharjoitus/static/css/main.3c9df138.css.map",
-    "main.c2548bef.js.map": "/AgeCalc-koodausharjoitus/static/js/main.c2548bef.js.map",
+    "main.21f14cb1.css.map": "/AgeCalc-koodausharjoitus/static/css/main.21f14cb1.css.map",
+    "main.30c2925a.js.map": "/AgeCalc-koodausharjoitus/static/js/main.30c2925a.js.map",
     "453.4f5cc4cc.chunk.js.map": "/AgeCalc-koodausharjoitus/static/js/453.4f5cc4cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c9df138.css",
-    "static/js/main.c2548bef.js"
+    "static/css/main.21f14cb1.css",
+    "static/js/main.30c2925a.js"
   ]
 }
