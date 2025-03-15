@@ -130,3 +130,10 @@ p.yhteystiedot {
   line-height: 1.3 !important;
   font-weight: 500;
 }
+
+.ad-container {
+  background-color: #b7641b; /* haluamasi taustaväri */
+  padding: 15px; /* lisätilaa sisällön ympärille */
+  border-radius: 5px; /* tarvittaessa pyöristetyt kulmat */
+  padding-bottom: 30px;
+}

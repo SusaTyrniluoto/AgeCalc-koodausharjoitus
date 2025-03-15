@@ -26,14 +26,17 @@ export const daysMessage = (daysLeft: number) => `
 `;
 
 export const advertisementHTML = `
-  <p>Oletko ajatellut tilata syntymäpäiväjuhliin valokuvaajaa?</p>
-  <p class="yhteystiedot">
-    <b>Susa Tyrniluoto</b><br>
-    <span class="subtitle">Tamperelainen valokuvaaja ja kuvataiteilija</span><br>
-    <span class="contact">
-      Puh: 041 502 3651<br>
-      <a href="mailto:info@tyrniluoto.fi">info@tyrniluoto.fi</a><br>
-      <u><a href="https://www.tyrniluoto.fi" target="_blank">www.tyrniluoto.fi</a></u>
-    </span>
-  </p>
+  <div class="ad-container">
+    <p>Oletko ajatellut tilata syntymäpäiväjuhliin valokuvaajaa?</p>
+    <p class="yhteystiedot">
+      <b>Susa Tyrniluoto</b><br>
+      <span class="subtitle">Tamperelainen valokuvaaja ja kuvataiteilija</span><br>
+      <span class="contact">
+        Puh: 041 502 3651<br>
+        <a href="mailto:info@tyrniluoto.fi">info@tyrniluoto.fi</a><br>
+        <u><a href="https://www.tyrniluoto.fi" target="_blank">www.tyrniluoto.fi</a></u>
+      </span>
+    </p>
+  </div>
 `;
+
